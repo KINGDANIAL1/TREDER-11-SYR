@@ -1,5 +1,5 @@
 # TREDER-11-SYR
-أداة لتحليل بيانات التداول وتقديم تقارير مبسطة.
+التداول مشروع منصة تداول 
 
 ## التثبيت
 1. استنسخ المستودع: `git clone https://github.com/KINGDANIAL1/TREDER-11-SYR.git`
