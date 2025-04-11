@@ -14,11 +14,13 @@ dependencies:
   provider: ^6.0.0
   http: ^1.2.2
   firebase_core: ^3.6.0
+  firebase_auth: ^5.5.2 
   firebase_messaging: ^15.1.3
   webview_flutter: ^4.7.0
   firebase_data_connect: ^0.1.0-dev.1 
   webview_flutter_web: ^0.2.3+4  # أضف هذا السطر إذا لم يكن موجودًا
   cupertino_icons: ^1.0.2
+  vector_math: ^2.1.4  # للتأثيرات ثلاثية الأبعاد
 
 dev_dependencies:
   flutter_test:
@@ -27,3 +29,15 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/google_certified.png
+    - assets/binance_partner.png
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+        - asset: fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 700
+
+          
